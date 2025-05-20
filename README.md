@@ -1,8 +1,8 @@
-Library Database System
+**Library Database System**
 
 A simple library management database built with SQLite and a simple Python interface. This project provides the schema, lookup data, and foundational SQL scripts to support key library operations.
 
-Requirements Used
+**Requirements Used**
 
 Unique Book IDs: Each book has a unique ID number.
 

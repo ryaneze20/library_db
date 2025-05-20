@@ -30,16 +30,16 @@ CREATE TABLE book(
 
 CREATE TABLE member(
     id INTEGER PRIMARY KEY AUTOINCREMENT,
-    first_name CHAR NOT NULL,
-    last_name CHAR NOT NULL,
+    first_name TEXT NOT NULL,
+    last_name TEXT NOT NULL,
     joined_date DATE NOT NULL,
     active_status_id INTEGER NOT NULL REFERENCES member_status(id)
 );
 
 CREATE TABLE author(
     id INTEGER PRIMARY KEY AUTOINCREMENT,
-    first_name CHAR NOT NULL,
-    last_name CHAR NOT NULL
+    first_name TEXT NOT NULL,
+    last_name TEXT NOT NULL
 );
 
 --associative join table for book and author
